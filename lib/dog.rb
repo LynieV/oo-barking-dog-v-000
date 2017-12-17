@@ -6,4 +6,3 @@ class Dog
     @bark = bark
   end
 end
-
