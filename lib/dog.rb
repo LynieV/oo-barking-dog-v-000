@@ -1,8 +1,14 @@
 # Your code goes here!
 class Dog
-  attr_accessor :name, :bark
-  def initialize(name, bark = "woof!")
+  def name=(name)
     @name = name
-    @bark = bark
+  end
+
+  def name
+    @name
+  end
+
+  def bark
+    puts "woof!"
   end
 end
